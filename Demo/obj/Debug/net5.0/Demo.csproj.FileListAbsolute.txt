@@ -38,3 +38,5 @@ C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\ref\Demo.dll
 C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\Demo.pdb
 C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\Demo.genruntimeconfig.cache
 C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\Demo.csproj.CopyComplete
+C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
+C:\Users\Administrator\NetCore\Demo\obj\Debug\net5.0\Razor\Views\HelloWorld\GetName.cshtml.g.cs
