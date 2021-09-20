@@ -13,7 +13,7 @@ namespace Demo
 {
 public class Startup
 {
-    public Startup(IConfiguration configuration, IWebHostEnvironment env)
+     public Startup(IConfiguration configuration, IWebHostEnvironment env)
     {
         Environment = env;
         Configuration = configuration;
@@ -39,11 +39,7 @@ public class Startup
                 options.UseSqlServer(connectionString);
             }
         });
-
-        services.AddDbContext<MvcMovieContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
     }
-
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
         if (env.IsDevelopment())
